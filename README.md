@@ -9,5 +9,7 @@ Things need to changed:
 2. Secreted metabolites needed to be de-coupled from biomass equation
 
 Goal for this project
+
 1. Model electron transporation chain in 5G
+
 2. Model fermentation mode with experiment measurements of fermentation runs in bio-reactor.
