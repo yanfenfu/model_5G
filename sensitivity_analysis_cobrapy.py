@@ -38,4 +38,5 @@ d2=pd.DataFrame(objFlux2)
 result = pd.concat([d, d2], axis=1)
 print result
 result.to_csv('test_result.csv', sep=',', encoding='utf-8')
-savvy.sensitivity_tools.analyze_sensitivity('/Users/yanfenfu/Documents/savvy/saparams_2-parameters_10-n.txt','/Users/yanfenfu/Documents/local/cobra-5GB1/test_1.csv',1,',',1,'SGAT',True)
+#savvy.sensitivity_tools.analyze_sensitivity('/Users/yanfenfu/Documents/savvy/saparams_2-parameters_10-n.txt','/Users/yanfenfu/Documents/local/cobra-5GB1/test_1.csv',1,',',1,'SGAT',True)
+savvy.sensitivity_tools.analyze_sensitivity('/Users/yanfenfu/Documents/savvy/saparams_2-parameters_10-n.txt','/Users/yanfenfu/Documents/local/cobra-5GB1/test_result.csv',0,',',2,'SGAT',parallel=False)
